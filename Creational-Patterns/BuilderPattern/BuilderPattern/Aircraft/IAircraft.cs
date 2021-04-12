@@ -11,6 +11,6 @@ namespace BuilderPattern.Aircraft
         public void SetCockpit(string cockpit);
         public string GetCockpit();
 
-        public void GetResults();
+        public void GetDetails();
     }
 }

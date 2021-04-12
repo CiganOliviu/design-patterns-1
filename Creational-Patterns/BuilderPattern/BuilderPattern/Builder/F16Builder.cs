@@ -6,19 +6,19 @@ namespace BuilderPattern.Builder
     {
         private readonly F16.F16 _f16 = new F16.F16();
         
-        public new void BuildEngine()
+        public override void BuildEngine()
         {
-            _f16.SetEngine("");
+            _f16.SetEngine("Pratt & Whitney F100");
         }
 
-        public new void BuildWings()
+        public override void BuildWings()
         {
-            _f16.SetWings("");
+            _f16.SetWings("Small Wings");
         }
 
-        public new void BuildCockpit()
+        public override void BuildCockpit()
         {
-            _f16.SetCockpit("");
+            _f16.SetCockpit("Integrated Cockpit");
         }
 
         public IAircraft GetResult()

@@ -2,22 +2,22 @@ namespace BuilderPattern.Builder
 {
     public abstract class AircraftBuilder
     {
-        public void BuildEngine()
+        public virtual void BuildEngine()
         {
             
         }
 
-        public void BuildWings()
+        public virtual void BuildWings()
         {
             
         }
 
-        public void BuildCockpit()
+        public virtual void BuildCockpit()
         {
             
         }
 
-        public void BuildBathroom()
+        public virtual void BuildBathroom()
         {
             
         }

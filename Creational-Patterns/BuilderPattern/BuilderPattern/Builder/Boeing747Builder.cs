@@ -4,26 +4,26 @@ namespace BuilderPattern.Builder
 {
     public class Boeing747Builder : AircraftBuilder
     {
-        private readonly Boeing747.Boeing747 _boeing747 = new Boeing747.Boeing747();
+        private readonly Boeing747.Boeing747 _boeing747 = new();
         
         public new void BuildEngine()
         {
-            _boeing747.SetEngine("");
+            _boeing747.SetEngine("General Electric GEnx");
         }
 
-        public new void BuildWings()
+        public override void BuildWings()
         {
-            _boeing747.SetWings("");
+            _boeing747.SetWings("Huge Wings");
         }
 
-        public new void BuildCockpit()
+        public override void BuildCockpit()
         {
-            _boeing747.SetCockpit("");
+            _boeing747.SetCockpit("Dedicated Cockpit");
         }
 
-        public new void BuildBathroom()
+        public override void BuildBathroom()
         {
-            _boeing747.SetBathroom("");
+            _boeing747.SetBathroom("Small Bathrooms");
         }
 
         public IAircraft GetResult()

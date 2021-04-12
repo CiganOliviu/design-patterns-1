@@ -50,7 +50,7 @@ namespace BuilderPattern.Boeing747
             return _bathroom;
         }
         
-        public void GetResults()
+        public void GetDetails()
         {
             Console.WriteLine(GetEngine());
             Console.WriteLine(GetWings());

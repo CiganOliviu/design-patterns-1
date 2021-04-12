@@ -39,7 +39,7 @@ namespace BuilderPattern.F16
             return _cockpit;
         }
                 
-        public void GetResults()
+        public void GetDetails()
         {
             Console.WriteLine(GetEngine());
             Console.WriteLine(GetWings());
