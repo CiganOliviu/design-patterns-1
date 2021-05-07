@@ -57,15 +57,27 @@ implementation, thus decoupling the two in the process.
 
 ### Composite Pattern
 
-![main page](Documentation-imgs/CompositePattern.jpg)
+![main page](Documentation-imgs/CompositePattern.png)
 
 Formally, the composite pattern is defined as composing objects into tree structures to represent part-whole hierarchies, thus letting clients uniformly treat individual objects and composition of objects.
 
 ### Decorator Pattern
 
+![main page](Documentation-imgs/DecoratorPattern.png)
+
+The decorator pattern can be thought of as a wrapper or more formally a way to enhance or extend the behavior of an object dynamically
+
 ### Facade Pattern
 
+![main page](Documentation-imgs/FacadePattern.png)
+
+Formally the facade pattern is defined as a single uber interface to one or more subsystems or interfaces intending to make use of the subsystems easier.
+
 ### Flyweight
+
+![main page](Documentation-imgs/FlyweightPattern.png)
+
+Formally, the pattern is defined as sharing state among many fine-grained objects for efficiency.
 
 ### Proxy Pattern
 
