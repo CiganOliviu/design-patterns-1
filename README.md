@@ -79,8 +79,6 @@ Formally the facade pattern is defined as a single uber interface to one or more
 
 Formally, the pattern is defined as sharing state among many fine-grained objects for efficiency.
 
-### Proxy Pattern
-
 ## Behavioral Pattern
 
 ### Chain of responsability pattern
