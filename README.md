@@ -83,6 +83,10 @@ Formally, the pattern is defined as sharing state among many fine-grained object
 
 ### Chain of responsability pattern
 
+Formally, the pattern is defined as decoupling the sender of a request from its receiver by chaining the receiving objects together and passing the request along the chain until an object handles it.
+
+![image](https://user-images.githubusercontent.com/43005157/119193589-7ff5cb00-ba8a-11eb-9766-4f9b4c843dd4.png)
+
 ### Observer Pattern
 
 ### Interpreter Pattern
