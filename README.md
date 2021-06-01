@@ -57,19 +57,41 @@ implementation, thus decoupling the two in the process.
 
 ### Composite Pattern
 
+![main page](Documentation-imgs/CompositePattern.png)
+
+Formally, the composite pattern is defined as composing objects into tree structures to represent part-whole hierarchies, thus letting clients uniformly treat individual objects and composition of objects.
+
 ### Decorator Pattern
+
+![main page](Documentation-imgs/DecoratorPattern.png)
+
+The decorator pattern can be thought of as a wrapper or more formally a way to enhance or extend the behavior of an object dynamically
 
 ### Facade Pattern
 
+![main page](Documentation-imgs/FacadePattern.png)
+
+Formally the facade pattern is defined as a single uber interface to one or more subsystems or interfaces intending to make use of the subsystems easier.
+
 ### Flyweight
 
-### Proxy Pattern
+![main page](Documentation-imgs/FlyweightPattern.png)
+
+Formally, the pattern is defined as sharing state among many fine-grained objects for efficiency.
 
 ## Behavioral Pattern
 
 ### Chain of responsability pattern
 
+Formally, the pattern is defined as decoupling the sender of a request from its receiver by chaining the receiving objects together and passing the request along the chain until an object handles it.
+
+![main page](Documentation-imgs/ChainOfResponsabilityPattern.jpg)
+
 ### Observer Pattern
+
+The pattern is formally defined as a one to many dependency between objects so that when one object changes state all the dependents are notified.
+
+![main page](Documentation-imgs/ObserverPattern.png)
 
 ### Interpreter Pattern
 
