@@ -89,6 +89,10 @@ Formally, the pattern is defined as decoupling the sender of a request from its 
 
 ### Observer Pattern
 
+The pattern is formally defined as a one to many dependency between objects so that when one object changes state all the dependents are notified.
+
+![main page](Documentation-imgs/ObserverPattern.png)
+
 ### Interpreter Pattern
 
 ### Command Pattern
