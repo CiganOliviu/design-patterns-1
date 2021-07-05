@@ -97,7 +97,12 @@ The pattern is formally defined as a one to many dependency between objects so t
 
 ### Command Pattern
 
+
+![main page](Documentation-imgs/Command-Pattern.png)
+
 ### Iterator Pattern
+
+![main page](Documentation-imgs/IteratorPattern.png)
 
 ### Mediator Pattern
 
