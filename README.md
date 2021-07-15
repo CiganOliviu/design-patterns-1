@@ -107,12 +107,22 @@ Formally, the pattern is defined as representing an action or a request as an ob
 
 ### Mediator Pattern
 
+Formally, the pattern is defined as encouraging loose coupling among interacting objects by encapsulating their interactions in a mediator object, thus avoiding the need for individual objects to refer to each other directly and allowing to vary object interactions independently.
+
+![main page](Documentation-imgs/MediatorPattern.png)
+
 ### Memento Pattern
+
+![main page](Documentation-imgs/memento-pattern.jpg)
 
 ### State Pattern
 
 ### Template Method
 
+![main page](Documentation-imgs/template-pattern.png)
+
 ### Strategy Pattern
+
+![main page](Documentation-imgs/strategy-pattern.png)
 
 ### Visitor Pattern
