@@ -113,16 +113,24 @@ Formally, the pattern is defined as encouraging loose coupling among interacting
 
 ### Memento Pattern
 
+The memento pattern let's us capture the internal state of an object without exposing its internal structure so that the object can be restored to this state later.
+
 ![main page](Documentation-imgs/memento-pattern.jpg)
 
 ### Template Method
+
+Formally, the pattern is defined as allowing subclasses to define parts of an algorithm without modifying the overall structure of the algorithm.
 
 ![main page](Documentation-imgs/template-pattern.png)
 
 ### Strategy Pattern
 
+The strategy pattern is formally defined as encapsulating algorithms belonging to the same family and making them interchangeable. The consumers of the common interface that the algorithms implement allow switching out one algorithm for another seamlessly.
+
 ![main page](Documentation-imgs/strategy-pattern.png)
 
 ### Visitor Pattern
+
+Formally, the pattern is defined as defining operations to be performed on elements of an object structure without changing the classes of the elements it works on.
 
 ![main page](Documentation-imgs/visitor-pattern.jpg)
