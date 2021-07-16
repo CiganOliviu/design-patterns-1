@@ -93,20 +93,36 @@ The pattern is formally defined as a one to many dependency between objects so t
 
 ![main page](Documentation-imgs/ObserverPattern.png)
 
-### Interpreter Pattern
-
 ### Command Pattern
+
+Formally, the pattern is defined as representing an action or a request as an object that can then be passed to other objects as parameters, allowing parameterization of clients with requests or actions. The requests can be queued for later execution or logged. Logging requests enables undo operations.
+
+![main page](Documentation-imgs/Command-Pattern.png)
 
 ### Iterator Pattern
 
+ An iterator is formally defined as a pattern that allows traversing the elements of an aggregate or a collection sequentially without exposing the underlying implementation.
+ 
+![main page](Documentation-imgs/Iterator-Pattern.png)
+
 ### Mediator Pattern
 
+Formally, the pattern is defined as encouraging loose coupling among interacting objects by encapsulating their interactions in a mediator object, thus avoiding the need for individual objects to refer to each other directly and allowing to vary object interactions independently.
+
+![main page](Documentation-imgs/MediatorPattern.png)
+
 ### Memento Pattern
+
+![main page](Documentation-imgs/memento-pattern.jpg)
 
 ### State Pattern
 
 ### Template Method
 
+![main page](Documentation-imgs/template-pattern.png)
+
 ### Strategy Pattern
+
+![main page](Documentation-imgs/strategy-pattern.png)
 
 ### Visitor Pattern
