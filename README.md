@@ -127,4 +127,4 @@ Formally, the pattern is defined as encouraging loose coupling among interacting
 
 ### Visitor Pattern
 
-![main page](Documentation-imgs/visitor-pattern.png)
+![main page](Documentation-imgs/visitor-pattern.jpg)
